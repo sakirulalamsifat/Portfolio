@@ -71,6 +71,12 @@ body{
 
 }
 
+#education{
+    padding: 100px 0;
+    background-color: #393e46;
+
+}
+
 .aboutImage{
 	max-width: 100%;
 	padding-right: 50px;
@@ -391,33 +397,47 @@ body{
 	display: block;
 }
 
+
+.edu_image{
+    border-radius: 50px;
+}
+
+.education .heading{
+    color: white;
+
+}
+
+
+
+
 table tr td{
     padding: 1px;
-    border: 1px solid none;
     border-radius: 10px;
     font-family: cursive;
     color:#dfe6e9;
+    padding: 10px 10px;
 
     
     
 }
 
 table tr th{
-    border-top: 5 px solid none;
-    border-right: 5 px solid none;
-    border-left: 5 px solid none;
-    border-radius: 5px;
-    background-color: #1b1b2f;
-    color: aliceblue;
-    font-family: fantasy;
+   
+    font-family: sans-serif;
     font-style: italic;
     letter-spacing: 2px;
-    position: static;
+    padding: 10px 10px;
+    color:#dfe6e9;
+    margin-left: 30px;
 }
 
-tr td:nth-child(2){
-    text-align: center;
+.contactIcon i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
 }
+
+
 
 
 
