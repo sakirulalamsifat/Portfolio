@@ -22,7 +22,7 @@ $(document).ready(function(){
 		play:5000,
 		});
 	var typed= new Typed(".typed",{
-		strings: ["Software Engineer", "Web Developed"],
+		strings: ["Software Engineer", "Web Developer"],
 		typeSpeed:70,
 		loop:true,
 		startDelay:1000,
